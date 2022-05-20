@@ -1,0 +1,93 @@
+body{
+  background-color: silver;
+}
+
+#cara{
+  height:2000px;
+  width: 2000px;
+}
+
+.cara1{
+background: #EE9D69;
+height: 590px;
+width: 590px;
+clip-path: ellipse(30% 37% at 50% 45%);
+position: relative;
+margin: 50px auto;
+overflow: hidden;
+top: 10px;
+left: -100px;
+z-index: 1;
+}
+
+.ojos{
+  position: relative;
+  left:120px;
+  top: 130px;
+  width: 210px;
+
+  background: #fff;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  clip-path: ellipse(22% 14% at 50% 50%);
+  display:inline-block;
+}
+
+.ojo_derecho{
+left:70px;
+}
+
+.iris{
+  background: #321503;
+  height: 50px;
+  width: 60px;
+  clip-path: circle(50% at 50% 50%);
+  left: 70px;
+  top:75px;
+  position:absolute;
+  z-index: 1;
+}
+
+.pupila{
+  background: green;
+  clip-path: circle(50% at 50% 50%);
+  height: 30px;
+  width: 30px;
+  left: 20px;
+  top:15px;
+  position: relative;
+}
+
+#nariz{
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  height: 60px;
+  width: 60px;
+  background: #FAAF80;
+  position: absolute;
+  top: 260px;
+  left: 265px;
+}
+
+#boca{
+  clip-path: polygon(43% 46%, 0 23%, 88% 23%);
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 150px;
+  left: 240px;
+  background: #D65842;
+
+}
+
+#pelo{
+  clip-path: polygon(14% 75%, 15% 47%, 22% 19%, 40% 12%, 58% 12%, 71% 17%, 80% 42%, 80% 75%, 80% 91%, 68% 91%, 68% 78%, 67% 67%, 68% 53%, 63% 38%, 59% 29%, 53% 26%, 42% 25%, 34% 32%, 30% 41%, 28% 53%, 29% 62%, 28% 74%, 27% 86%, 27% 92%, 13% 94%);
+  background: #3E230B;
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  left:610px;
+  top:20px;
+  z-index: 11;
+
+}
